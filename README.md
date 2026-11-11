@@ -103,6 +103,24 @@ Select the kernel corresponding to your created virtual environment and execute 
 
 ---
 
+## 📊 Key Results & Visualizations
+
+### Data Quality Issues per Rule
+The majority of quality issues are related to completeness, specifically missing static vessel data such as **Heading (R7)** and **COG (R5)**.
+
+<p align="center">
+  <img src="/data_quality_issues_per_rule.png" alt="Data Quality Issues per Rule" width="700"/>
+</p>
+
+### Reporting Interval Distribution
+Analysis of transmission gaps between consecutive AIS messages. A log-scale histogram shows the distribution of reporting intervals, with a threshold set at 30 minutes (R10).
+
+<p align="center">
+  <img src="/reporting_interval_distribution.png" alt="Reporting Interval Distribution" width="700"/>
+</p>
+
+---
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.# ais-data-quality-validation
